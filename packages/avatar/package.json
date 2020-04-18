@@ -1,6 +1,6 @@
 {
-  "name": "avatar",
-  "version": "1.0.0-alpha.0",
+  "name": "@lernatutorial/avatar",
+  "version": "0.0.0",
   "description": "avater",
   "author": "lilach.eilim <lilach.eilim@centrica.com>",
   "homepage": "https://github.com/lilacoren/lernaTutorial#readme",
@@ -25,6 +25,5 @@
   },
   "bugs": {
     "url": "https://github.com/lilacoren/lernaTutorial/issues"
-  },
-  "gitHead": "7a50d19afe17e1196356c96ad10cef05f80f173f"
+  }
 }

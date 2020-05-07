@@ -2,6 +2,18 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "lerna": "^3.20.2"
+    "lerna": "^3.20.2",
+    "microbundle": "^0.11.0"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
+  "source": "src/myAvatar.js",          // Your source file (same as 1st arg to microbundle)
+  "main": "dist/myAvatar.js",           // output path for CommonJS/Node
+  "module": "dist/myAvatar.module.js",  // output path for JS Modules
+  "unpkg": "dist/myAvatar.umd.js",      // optional, for unpkg.com
+  "scripts": {
+    "build": "microbundle",        // uses "source" and "main" as input and output paths by default
+    "dev": "microbundle watch"
   }
 }
